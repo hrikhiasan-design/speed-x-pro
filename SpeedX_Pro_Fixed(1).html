@@ -767,3 +767,38 @@ async function rLb(m) {
 </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpeedX Pro</title>
+</head>
+
+<body>
+
+  <h1>Firebase Connected 🔥</h1>
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-analytics.js";
+
+    const firebaseConfig = {
+      apiKey: "YOUR_API_KEY",
+      authDomain: "speedx-pro.firebaseapp.com",
+      projectId: "speedx-pro",
+      storageBucket: "speedx-pro.appspot.com",
+      messagingSenderId: "251310953968",
+      appId: "1:251310953968:web:72cb57efb345aa9c8d7935",
+      measurementId: "G-S2MRNJR72E"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+
+    console.log("Firebase Connected ✅");
+  </script>
+
+</body>
+</html>
